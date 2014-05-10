@@ -1,0 +1,34 @@
+{
+  "author": "Vinay Yadav <vinay@buzzworks.com> (http://www.buzzworks.com/)",
+  "name": "flexydial-example",
+  "description": "Flexydial web app template using flatiron",
+  "version": "0.1.0",
+  "homepage": "http://www.flexydial.com",
+  "repository": {
+    "url": "https:"
+  },
+  "main": "./bin/server",
+  "config": {
+    "start": "./bin/server"
+  },
+  "scripts": {
+    "test": "vows test/*-test.js --spec",
+    "start": "./bin/server"
+  },
+  "dependencies": {
+    "flatiron": "0.3.x",
+    "union": "0.3.x",
+    "nconf": "0.6.x",
+    "socket.io": "~0.9.16",
+    "socket.io-client": "~0.9.16"
+  },
+  "devDependencies": {
+    "nock": "0.27.x",
+    "vows": "0.7.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  },
+  "subdomain": "flexydial-example"
+}

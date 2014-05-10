@@ -1,0 +1,5 @@
+{
+  "port": "9070",
+  "cryptoKey": "fl3xyd!al",
+  "mongoUri": "mongodb://localhost/flexydial-example"
+}
